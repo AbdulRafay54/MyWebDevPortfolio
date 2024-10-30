@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" bg-[#1a0b2e]  p-4 shadow-md">
+    <nav className="fixed top-0 left-0 right-0 bg-[#1a0b2e] p-4 shadow-md z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-2xl font-semibold text-white">
           <Link href="/" className="logo">
@@ -43,7 +43,7 @@ const Navbar = () => {
             About
           </Link>
           <Link
-            className="text-gray-300 hover:text-white text-lg font-bold  transition duration-300"
+            className="text-gray-300 hover:text-white text-lg font-bold transition duration-300"
             href="/contact"
           >
             Contact
@@ -69,7 +69,7 @@ const Navbar = () => {
         </Link>
         <Link
           className="block text-gray-300 hover:text-white text-lg py-2"
-          href="/about"
+          href="#about"
           onClick={toggleMenu}
         >
           About
