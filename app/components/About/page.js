@@ -1,11 +1,14 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import "aos/dist/aos.css";
-
-
+import Aos from "aos";
 
 const About = () => {
+  useEffect(() => {
+    Aos.init(); // Initialize AOS
+    Aos.refresh();
+  }, []);
   return (
     <section
       id="about"
@@ -15,14 +18,19 @@ const About = () => {
         About <span className="text-purple-400"> Me</span>
       </h1>
 
-      <div className="flex flex-col md:flex-row items-center justify-between w-full">
+      <div
+        className="flex flex-col md:flex-row items-center justify-between w-full"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
         <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
           <h2 className="text-3xl font-semibold text-white mb-2">
             Know Who <span className="text-purple-400">I'M</span>
           </h2>
           <p className="text-lg mb-2 ">
             Hi Everyone
-            <span className="wave-icon">👋</span>, I am{" "}
+            <span className="wave-icon">👋🏼</span>, I am{" "}
             <span className="text-purple-500 font-bold">Abdul Rafay</span> from{" "}
             <span className="text-purple-500">Karachi, Pakistan</span>.
           </p>
@@ -35,13 +43,13 @@ const About = () => {
           </p>
           <ul className="list-none space-y-2 mb-6">
             <li className="flex items-center text-gray-300">
-              <span className="mr-2">╰┈➤</span> Cooking
+              <span className="mr-2">➤</span> Calligraphy
             </li>
             <li className="flex items-center text-gray-300">
-              <span className="mr-2">╰┈➤</span> Calligraphy
+              <span className="mr-2">➤</span> Sketching
             </li>
             <li className="flex items-center text-gray-300">
-              <span className="mr-2">╰┈➤</span> Sketching
+              <span className="mr-2">➤</span> Cooking
             </li>
           </ul>
         </div>

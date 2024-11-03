@@ -4,6 +4,8 @@ import Hero from './components/Hero/page'
 import About from './components/About/page'
 import Work from './components/Work/page'
 import Projects from './components/Projects/page'
+import ContactForm from './components/Contact/page'
+import Footer from './components/Footer/page'
 
 const page = () => {
   return (
@@ -13,6 +15,8 @@ const page = () => {
 <Work/>
 <About/>
 <Projects/>
+<ContactForm/>
+<Footer/>
 </>
 
 )

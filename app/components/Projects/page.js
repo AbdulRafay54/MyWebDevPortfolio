@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 const Projects = () => {
   return (
     <section
-      id="portfolio"
+      id="projects"
       className="text-white py-16 px-4 sm:px-6 md:px-8 lg:px-12 flex flex-col items-center max-w-6xl mx-auto"
     >
       <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center">
@@ -29,6 +29,7 @@ const Projects = () => {
             width={300}
             height={180}
             className="rounded-lg mb-4"
+            crossOrigin="anonymous"
           />
           <h2 className="text-xl font-semibold mb-2">Blogging Website</h2>
           <p className="text-gray-400 text-sm mb-4 text-center">
@@ -38,15 +39,17 @@ const Projects = () => {
           </p>
           <div className="flex space-x-4">
             <Link
-              href="https://github.com/AbdulRafay54/Weather-App"
+              href="https://github.com/AbdulRafay54/Blogging-App"
               className="portfolio-button"
+              target="_blank"
             >
               <FaGithub className="mr-2" /> GitHub
             </Link>
 
             <Link
-              href="https://weather-app-eight-eta-31.vercel.app/"
+              href="https://blogging-app-eg84.vercel.app/"
               className="portfolio-button"
+              target="_blank"
             >
               <FiExternalLink className="mr-2" /> Demo
             </Link>
@@ -71,6 +74,7 @@ const Projects = () => {
             <Link
               href="https://github.com/AbdulRafay54/Weather-App"
               className="portfolio-button"
+              target="_blank"
             >
               <FaGithub className="mr-2" /> GitHub
             </Link>
@@ -78,6 +82,7 @@ const Projects = () => {
             <Link
               href="https://weather-app-eight-eta-31.vercel.app/"
               className="portfolio-button"
+              target="_blank"
             >
               <FiExternalLink className="mr-2" /> Demo
             </Link>
@@ -100,15 +105,17 @@ const Projects = () => {
           </p>
           <div className="  flex space-x-4">
             <Link
-              href="https://github.com/AbdulRafay54/Weather-App"
+              href="https://github.com/AbdulRafay54/Ecommerce-App-"
               className="portfolio-button"
+              target="_blank"
             >
               <FaGithub className="mr-2" /> GitHub
             </Link>
 
             <Link
-              href="https://weather-app-eight-eta-31.vercel.app/"
+              href="https://ecommerce-app-xi-lovat.vercel.app/"
               className="portfolio-button"
+              target="_blank"
             >
               <FiExternalLink className="mr-2" /> Demo
             </Link>
@@ -130,15 +137,17 @@ const Projects = () => {
           </p>
           <div className="flex space-x-4">
             <Link
-              href="https://github.com/AbdulRafay54/Weather-App"
+              href="https://github.com/AbdulRafay54/Facebook-post-box"
               className="portfolio-button"
+              target="_blank"
             >
               <FaGithub className="mr-2" /> GitHub
             </Link>
 
             <Link
-              href="https://weather-app-eight-eta-31.vercel.app/"
+              href="https://curious-mermaid-507358.netlify.app/"
               className="portfolio-button"
+              target="_blank"
             >
               <FiExternalLink className="mr-2" /> Demo
             </Link>
@@ -160,15 +169,17 @@ const Projects = () => {
           </p>
           <div className="flex space-x-4">
             <Link
-              href="https://github.com/AbdulRafay54/Weather-App"
+              href="https://github.com/AbdulRafay54/Text-Editor-App"
               className="portfolio-button"
+              target="_blank"
             >
               <FaGithub className="mr-2" /> GitHub
             </Link>
 
             <Link
-              href="https://weather-app-eight-eta-31.vercel.app/"
+              href="https://sparkly-syrniki-6afcbd.netlify.app/"
               className="portfolio-button"
+              target="_blank"
             >
               <FiExternalLink className="mr-2" /> Demo
             </Link>
@@ -191,15 +202,116 @@ const Projects = () => {
           </p>
           <div className="flex space-x-4">
             <Link
-              href="https://github.com/AbdulRafay54/Weather-App"
+              href="https://github.com/AbdulRafay54/Css-bulb"
               className="portfolio-button"
+              target="_blank"
             >
               <FaGithub className="mr-2" /> GitHub
             </Link>
 
             <Link
-              href="https://weather-app-eight-eta-31.vercel.app/"
+              href="https://imaginative-faloodeh-1071cf.netlify.app/"
               className="portfolio-button"
+              target="_blank"
+            >
+              <FiExternalLink className="mr-2" /> Demo
+            </Link>
+          </div>
+        </div>
+        {/* 7 */}
+
+        <div className="portfolio-card flex flex-col items-center p-6 rounded-lg shadow-lg">
+          <Image
+            src="/images/stopwatch.png"
+            alt="Stop Watch"
+            width={300}
+            height={180}
+            className="rounded-lg mb-4"
+          />
+          <h2 className="text-xl font-semibold mb-2">Stop Watch App</h2>
+          <p className="text-gray-400 text-sm mb-4 text-center">
+            A stopwatch has been created using HTML, CSS, and JavaScript,
+            providing users with a simple interface to track time efficiently.
+          </p>
+          <div className="flex space-x-4">
+            <Link
+              href="https://github.com/AbdulRafay54/Stop-Watch-JS"
+              className="portfolio-button"
+              target="_blank"
+            >
+              <FaGithub className="mr-2" /> GitHub
+            </Link>
+
+            <Link
+              href="https://stellular-lily-65759d.netlify.app/"
+              className="portfolio-button"
+              target="_blank"
+            >
+              <FiExternalLink className="mr-2" /> Demo
+            </Link>
+          </div>
+        </div>
+        {/* 8 */}
+
+        <div className="portfolio-card flex flex-col items-center p-6 rounded-lg shadow-lg">
+          <Image
+            src="/images/calculator.png"
+            alt="Ecommerce app"
+            width={300}
+            height={180}
+            className="rounded-lg mb-4"
+          />
+          <h2 className="text-xl font-semibold mb-2">Calculator App</h2>
+          <p className="text-gray-400 text-sm mb-4 text-center">
+            This calculator app, created with HTML and JavaScript, allows users
+            to perform basic arithmetic calculations easily.
+          </p>
+          <div className="flex space-x-4">
+            <Link
+              href="https://github.com/AbdulRafay54/Calculator-Js"
+              className="portfolio-button"
+              target="_blank"
+            >
+              <FaGithub className="mr-2" /> GitHub
+            </Link>
+
+            <Link
+              href="https://comforting-tiramisu-ddf454.netlify.app/"
+              className="portfolio-button"
+              target="_blank"
+            >
+              <FiExternalLink className="mr-2" /> Demo
+            </Link>
+          </div>
+        </div>
+        {/* 9 */}
+
+        <div className="portfolio-card flex flex-col items-center p-6 rounded-lg shadow-lg">
+          <Image
+            src="/images/password.png"
+            alt="Ecommerce app"
+            width={300}
+            height={180}
+            className="rounded-lg mb-4"
+          />
+          <h2 className="text-xl font-semibold mb-2">Password Generator App</h2>
+          <p className="text-gray-400 text-sm mb-4 text-center">
+            This password generator, built with HTML, CSS, and JavaScript,
+            creates strong, random passwords for enhanced security
+          </p>
+          <div className="flex space-x-4">
+            <Link
+              href="https://github.com/AbdulRafay54/Password-generator"
+              className="portfolio-button"
+              target="_blank"
+            >
+              <FaGithub className="mr-2" /> GitHub
+            </Link>
+
+            <Link
+              href="https://leafy-strudel-55ec12.netlify.app/"
+              className="portfolio-button"
+              target="_blank"
             >
               <FiExternalLink className="mr-2" /> Demo
             </Link>

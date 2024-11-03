@@ -1,10 +1,18 @@
+"use client";
+
+import Aos from "aos";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 
 const Work = () => {
+  useEffect(() => {
+    Aos.init(); // Initialize AOS
+    Aos.refresh();
+  }, []);
   return (
     <section
-      id="work-experience"
+      id="work"
       className="relative mt-[-100px]  text-white py-16 px-8 flex flex-col items-center"
     >
       <h1 className="text-4xl font-bold mb-12 text-center">
@@ -13,9 +21,7 @@ const Work = () => {
 
       <div
         className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl"
-        // data-aos="fade-left"
-        // data-aos-offset="500"
-        // data-aos-duration="500"
+        data-aos="zoom-in-up"
       >
         <div className="work-experience flex flex-col items-center">
           <h2>HTML, CSS, JS</h2>
