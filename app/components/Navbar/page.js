@@ -59,9 +59,9 @@ const Navbar = () => {
 
         <button onClick={toggleMenu} className="md:hidden focus:outline-none">
           <img
-            src="https://www.shareicon.net/data/512x512/2017/05/09/885755_list_512x512.png"
+            src="https://cdn-icons-png.flaticon.com/128/7711/7711100.png"
             alt="Menu Icon"
-            className="w-8 h-8"
+            className="w-7 h-7"
           />
         </button>
 
