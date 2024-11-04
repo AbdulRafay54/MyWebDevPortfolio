@@ -35,7 +35,7 @@ const About = () => {
             <span className="text-purple-500">Karachi, Pakistan</span>.
           </p>
           <p className="text-gray-300 mb-4">
-            I am a Software Engineer, a Frontend Developer specializing in
+            I am a Frontend Developer specializing in
             building interactive and user-friendly web applications.
           </p>
           <p className="text-gray-300 mb-6">
