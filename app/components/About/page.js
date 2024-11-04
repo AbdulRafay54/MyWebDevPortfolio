@@ -6,7 +6,7 @@ import Aos from "aos";
 
 const About = () => {
   useEffect(() => {
-    Aos.init(); // Initialize AOS
+    Aos.init(); 
     Aos.refresh();
   }, []);
   return (

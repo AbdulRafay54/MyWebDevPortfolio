@@ -13,7 +13,7 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="relative mt-[-100px]  text-white py-16 px-8 flex flex-col items-center"
+      className="relative mt-[-100px] sm:px-6 text-white py-16 px-8 flex flex-col items-center"
     >
       <h1 className="text-4xl font-bold mb-12 text-center">
         Work <span className="text-purple-400"> Experience</span>
