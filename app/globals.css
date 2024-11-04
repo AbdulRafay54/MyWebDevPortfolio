@@ -96,9 +96,9 @@ body {
     box-shadow: 0 0 60px 25px rgba(50, 15, 133, 0.8);
   }
 }
-@media (max-width: 640px) { /* Small screens ke liye */
+@media (max-width: 640px) { 
   .image-shift-up {
-    margin-top: -60px; /* Adjust according to preference */
+    margin-top: -10px; 
   }
 }
 

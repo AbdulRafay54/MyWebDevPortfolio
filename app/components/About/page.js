@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="text-white py-16 px-4 sm:px-6 md:px-8 lg:px-12 flex flex-col items-center max-w-5xl mx-auto rounded-lg mt-20"
+      className="text-white mt-[-40px] py-16 px-4 sm:px-6 md:px-8 lg:px-12 flex flex-col items-center max-w-5xl mx-auto rounded-lg mt-20"
     >
       <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center">
         About <span className="text-purple-400"> Me</span>
