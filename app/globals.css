@@ -96,6 +96,12 @@ body {
     box-shadow: 0 0 60px 25px rgba(50, 15, 133, 0.8);
   }
 }
+@media (max-width: 640px) { /* Small screens ke liye */
+  .image-shift-up {
+    margin-top: -60px; /* Adjust according to preference */
+  }
+}
+
 
 .name {
   font-size: 23px;
