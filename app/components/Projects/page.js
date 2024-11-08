@@ -124,20 +124,20 @@ const Projects = () => {
         {/* 4 */}
         <div className="portfolio-card flex flex-col items-center p-6 rounded-lg shadow-lg">
           <Image
-            src="/images/fb-post.png"
+            src="/images/duroodsharif.png"
             alt="Facebook Post"
             width={300}
             height={180}
             className="rounded-lg mb-4"
           />
-          <h2 className="text-xl font-semibold mb-2">Facebook Post App</h2>
+          <h2 className="text-xl font-semibold mb-2">Durood-e-Pak Counter</h2>
           <p className="text-gray-400 text-sm mb-4 text-center">
-            The Facebook Post App is a simple dummy platform using HTML, CSS,
-            and JavaScript, allowing users to create posts mimicking Facebook.
+            The Durood-e-Pak Counter App, developed in React, helps users easily
+            track and manage their recitations with a simple interface.
           </p>
           <div className="flex space-x-4">
             <Link
-              href="https://github.com/AbdulRafay54/Facebook-post-box"
+              href="https://github.com/AbdulRafay54/Durood-Sharif-Counter"
               className="portfolio-button"
               target="_blank"
             >
@@ -145,7 +145,7 @@ const Projects = () => {
             </Link>
 
             <Link
-              href="https://curious-mermaid-507358.netlify.app/"
+              href="https://durood-sharif-counter.vercel.app/"
               className="portfolio-button"
               target="_blank"
             >
@@ -276,7 +276,7 @@ const Projects = () => {
             </Link>
 
             <Link
-              href="https://comforting-tiramisu-ddf454.netlify.app/"
+              href="https://calm-parfait-ea916b.netlify.app/"
               className="portfolio-button"
               target="_blank"
             >
