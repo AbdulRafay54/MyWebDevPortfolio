@@ -243,7 +243,7 @@ const Projects = () => {
             </Link>
 
             <Link
-              href="https://stellular-lily-65759d.netlify.app/"
+              href="https://stellar-heliotrope-bdd136.netlify.app/"
               className="portfolio-button"
               target="_blank"
             >
