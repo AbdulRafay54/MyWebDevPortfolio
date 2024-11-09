@@ -14,7 +14,7 @@ body {
 }
 
 .logo-name {
-  font-size: 32px;
+  font-size: 30px;
   font-family: "Sacramento", cursive;
 }
 
@@ -412,8 +412,8 @@ textarea:hover {
   left: 50%;
   transform: translateX(-50%);
   width: 60%;
-  height: 12px;
-  background: linear-gradient(90deg, #130428, #251043, #38126d, #261045, #190634); /* Your portfolio gradient */
+  height: 13px;
+  background: linear-gradient(90deg, #130428, #251043, #38126d, #261045, #190634); 
   animation: glow 2s infinite ease-in-out;
   border-radius: 5px; 
 }
@@ -426,5 +426,12 @@ textarea:hover {
   }
   100% {
     box-shadow: 0 0 20px rgba(17, 10, 51, 1), 0 0 40px rgba(45, 9, 75, 1), 0 0 60px rgba(53, 1, 66, 1);
+  }
+}
+
+
+@media (max-width: 769px) {
+  .sm-margin-top {
+    margin-top: -40px !important;
   }
 }

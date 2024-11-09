@@ -29,13 +29,14 @@ const Hero = () => {
               alt="Avatar"
               width={400}
               height={500}
-              className="object-cover max-w-full h-auto sm:w-56 sm:h-72 md:w-80 md:h-96 lg:w-96 lg:h-[430px]"
+              className="object-cover max-w-full h-auto sm:w-56 sm:h-72 md:w-72 md:h-96 lg:w-96 lg:h-[430px] xl:w-[450px] xl:h-[500px]"
             />
             <div className="glowing-underline"></div>
           </div>
         </div>
 
-        <div className="flex flex-col justify-center md:w-1/2 text-center md:text-left px-4 sm:px-6 lg:px-8 xl:px-12 space-y-2 md:space-y-3 lg-fade-left">
+        <div className="flex flex-col justify-center md:w-1/2 text-center md:text-left px-4 sm:px-6 lg:px-8 xl:px-12 space-y-2 md:space-y-3 lg-fade-left sm-margin-top" 
+        >
           <p className="text-xs sm:text-sm md:text-base lg:text-lg text-purple-300 mb-1 md:mb-2">
             Hello! <span className="wave-icon">👋🏼</span> I am{" "}
             <span className="name text-purple-500 font-bold">Abdul Rafay</span>
