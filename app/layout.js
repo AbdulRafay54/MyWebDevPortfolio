@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Preahvihear&display=swap"
           rel="stylesheet"
         />
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Homenaje&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Nastaliq+Urdu:wght@400..700&family=Playwrite+GB+S&family=Preahvihear&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fleur+De+Leah&family=Homenaje&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Nastaliq+Urdu:wght@400..700&family=Playwrite+GB+S&family=Preahvihear&family=Sacramento&display=swap" rel="stylesheet"></link>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

@@ -125,7 +125,7 @@ const Projects = () => {
         <div className="portfolio-card flex flex-col items-center p-6 rounded-lg shadow-lg">
           <Image
             src="/images/duroodsharif.png"
-            alt="Facebook Post"
+            alt="duroodsharif"
             width={300}
             height={180}
             className="rounded-lg mb-4"
