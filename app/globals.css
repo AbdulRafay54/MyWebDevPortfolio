@@ -78,7 +78,7 @@ body {
 
 
 .name {
-  font-size: 21px;
+  font-size: 22px;
 }
 
 /* Card Styling */
@@ -149,6 +149,13 @@ body {
   }
 }
 
+.rounded-full {
+  border: 2px solid #763cac;
+  border-radius: 50%;
+  box-shadow: 0 0 8px 4px rgba(118, 60, 172, 0.6);
+  overflow: hidden;
+  animation: glow 2.5s infinite alternate-reverse;
+}
 .rounded-full-icon {
   border: 2px solid #763cac;
   border-radius: 50%;
@@ -398,6 +405,7 @@ textarea:hover {
 .footer-iconLink:hover {
   transform: scale(1.1);
 }
+
 
 .nextjs-static-indicator-toast-wrapper {
   display: none !important;

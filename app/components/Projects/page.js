@@ -189,20 +189,20 @@ const Projects = () => {
 
         <div className="portfolio-card flex flex-col items-center p-6 rounded-lg shadow-lg">
           <Image
-            src="/images/bulb.png"
+            src="/images/age-calculator.png"
             alt="Ecommerce app"
             width={300}
             height={180}
             className="rounded-lg mb-4"
           />
-          <h2 className="text-xl font-semibold mb-2">Bulb Glowing App</h2>
+          <h2 className="text-xl font-semibold mb-2">Age Calculator App</h2>
           <p className="text-gray-400 text-sm mb-4 text-center">
-            The Bulb Glowing App is a simple platform created with HTML and CSS,
-            allowing users to control a glowing bulb with a button.
+            The Age Calculator App is a basic tool made with HTML and CSS that
+            allows users to calculate their age by entering their birth date.
           </p>
           <div className="flex space-x-4">
             <Link
-              href="https://github.com/AbdulRafay54/Css-bulb"
+              href="https://github.com/AbdulRafay54/Age-Calculator"
               className="portfolio-button"
               target="_blank"
             >
@@ -210,7 +210,7 @@ const Projects = () => {
             </Link>
 
             <Link
-              href="https://imaginative-faloodeh-1071cf.netlify.app/"
+              href="https://chimerical-mooncake-ac39bf.netlify.app/"
               className="portfolio-button"
               target="_blank"
             >

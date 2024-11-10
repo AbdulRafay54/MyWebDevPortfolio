@@ -56,7 +56,7 @@ const About = () => {
 
         <div className="w-40 sm:w-48 md:w-60 rounded-full border-4 border-gray-800 shadow-lg overflow-hidden">
           <Image
-            src="/images/about1.png"
+            src="/images/my-image.jpeg"
             alt="Avatar"
             width={240}
             height={240}
@@ -69,7 +69,8 @@ const About = () => {
         Professional <span className="text-purple-400">Skillset</span>
       </h3>
 
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className="flex flex-wrap justify-center gap-8"
+      >
         <div className="flex items-center justify-center  rounded-full-icon w-16 h-16 p-2 shadow-lg">
           <img
             src="https://cdn-icons-png.flaticon.com/128/174/174854.png"
