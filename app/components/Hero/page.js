@@ -9,7 +9,6 @@ import "aos/dist/aos.css";
 const Hero = () => {
   useEffect(() => {
     Aos.init({
-      
       offset: 50,   
       duration: 200 
     }); 
@@ -25,7 +24,6 @@ const Hero = () => {
   className="text-white min-h-screen flex flex-col md:flex-row justify-center items-center sm:px-6 md:px-8 lg:px-12 space-y-8 md:space-y-0 mt-16"
 >
   <div className="mb-8 md:mb-0 md:w-1/2 flex justify-center mt-6 sm:mt-4 md:mt-12 image-shift-up"
-  data-aos="fade-right"
   >
   
     <div className="profile-img overflow-hidden relative mt-12 md:mt-16 sm:mt-10">
@@ -44,7 +42,6 @@ const Hero = () => {
 
   <div
     className="flex flex-col justify-center md:w-1/2 text-center md:text-left px-4 sm:px-6 lg:px-8 xl:px-12 space-y-2 md:space-y-3 lg-fade-left sm-margin-top"
- data-aos="fade-left"
  
  >
     <p className="text-xs sm:text-sm md:text-base lg:text-lg text-purple-300 mb-1 md:mb-2">
