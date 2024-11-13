@@ -34,9 +34,9 @@ const Hero = () => {
         alt="Avatar"
         width={400}
         height={500}
-        className="object-cover max-w-full h-auto sm:w-40 sm:h-52 md:w-60 md:h-80 lg:w-72 lg:h-[400px] xl:w-80 xl:h-[450px] 2xl:w-[450px] 2xl:h-[500px]"
+        className="object-cover max-w-full mb-9 h-auto sm:w-40 sm:h-52 md:w-60 md:h-80 lg:w-72 lg:h-[400px] xl:w-80 xl:h-[450px] 2xl:w-[450px] 2xl:h-[500px]"
       />
-      <div className="glowing-underline"></div>
+      <div className="glowing-underline mb-10"></div>
     </div>
   </div>
 
