@@ -24,6 +24,37 @@ const Projects = () => {
         {/* Project Card 1 */}
         <div className="portfolio-card flex flex-col items-center p-6 rounded-lg shadow-lg">
           <Image
+            src="/images/saylani.png"
+            alt="Blogging Website"
+            width={400}
+            height={380}
+            className="rounded-lg mb-4 w-[480px] h-[175px]"
+            crossOrigin="anonymous"
+          />
+          <h2 className="text-xl font-semibold mb-2">Saylani MicroFinance App</h2>
+          <p className="text-gray-400 text-sm mb-4 text-center">
+          Introducing Saylani Microfinance. This platform empowers users to apply for loans, manage repayments, and access financial services with ease.
+          </p>
+          <div className="flex space-x-4">
+            <Link
+              href="https://github.com/AbdulRafay54/Microfinance-Frontend"
+              className="portfolio-button"
+              target="_blank"
+            >
+              <FaGithub className="mr-2" /> GitHub
+            </Link>
+
+            <Link
+              href="https://microfinance-frontend-alpha.vercel.app/"
+              className="portfolio-button"
+              target="_blank"
+            >
+              <FiExternalLink className="mr-2" /> Demo
+            </Link>
+          </div>
+        </div>
+        <div className="portfolio-card flex flex-col items-center p-6 rounded-lg shadow-lg">
+          <Image
             src="/images/laptop-blog.png"
             alt="Blogging Website"
             width={300}
@@ -55,6 +86,7 @@ const Projects = () => {
             </Link>
           </div>
         </div>
+        
 
         {/* Project Card 2 */}
         <div className="portfolio-card flex flex-col items-center p-6 rounded-lg shadow-lg">
@@ -286,37 +318,7 @@ const Projects = () => {
         </div>
         {/* 9 */}
 
-        <div className="portfolio-card flex flex-col items-center p-6 rounded-lg shadow-lg">
-          <Image
-            src="/images/password.png"
-            alt="Ecommerce app"
-            width={300}
-            height={180}
-            className="rounded-lg mb-4"
-          />
-          <h2 className="text-xl font-semibold mb-2">Password Generator App</h2>
-          <p className="text-gray-400 text-sm mb-4 text-center">
-            This password generator, built with HTML, CSS, and JavaScript,
-            creates strong, random passwords for enhanced security
-          </p>
-          <div className="flex space-x-4">
-            <Link
-              href="https://github.com/AbdulRafay54/Password-generator"
-              className="portfolio-button"
-              target="_blank"
-            >
-              <FaGithub className="mr-2" /> GitHub
-            </Link>
-
-            <Link
-              href="https://leafy-strudel-55ec12.netlify.app/"
-              className="portfolio-button"
-              target="_blank"
-            >
-              <FiExternalLink className="mr-2" /> Demo
-            </Link>
-          </div>
-        </div>
+        
       </div>
     </section>
   );

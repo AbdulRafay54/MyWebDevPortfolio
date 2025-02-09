@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 const Work = () => {
   useEffect(() => {
-    Aos.init(); // Initialize AOS
+    Aos.init(); 
     Aos.refresh();
   }, []);
   return (

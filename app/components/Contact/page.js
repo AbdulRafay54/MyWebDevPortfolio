@@ -5,18 +5,18 @@ import { FaPaperPlane } from "react-icons/fa";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import emailjs from "@emailjs/browser";
-import Swal from "sweetalert2"; // Ensure you have this imported
+import Swal from "sweetalert2"; 
 
 const ContactForm = () => {
   const form = useRef();
 
   useEffect(() => {
-    Aos.init(); // Initialize AOS
+    Aos.init(); 
     Aos.refresh();
   }, []);
 
   const sendEmail = (e) => {
-    e.preventDefault(); // Prevent the default form submission
+    e.preventDefault();
 
     emailjs
       .sendForm(
@@ -31,7 +31,7 @@ const ContactForm = () => {
             icon: "success",
             title: "Your message has been sent successfully",
           });
-          form.current.reset(); // Reset the form after successful submission
+          form.current.reset(); 
         },
         (error) => {
           console.log(error.text);
@@ -62,7 +62,7 @@ const ContactForm = () => {
         <div className="form-container">
           <form
             ref={form}
-            onSubmit={sendEmail} // Call sendEmail on form submit
+            onSubmit={sendEmail} 
             className="contact w-full lg:w-[1040px] md:w-[750px] sm:w-[580px] p-8 rounded-lg shadow-lg"
           >
             <h2 className="text-white mb-6 text-center text-2xl font-bold">
