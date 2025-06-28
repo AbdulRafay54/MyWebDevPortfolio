@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaWhatsapp } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 import "aos/dist/aos.css";
 const Projects = () => {
@@ -21,38 +21,39 @@ const Projects = () => {
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
         data-aos="zoom-in-up"
       >
-        {/* Project Card 1 */}
-        <div className="portfolio-card flex flex-col items-center p-6 rounded-lg shadow-lg">
-          <Image
-            src="/images/saylani.png"
-            alt="Blogging Website"
-            width={400}
-            height={380}
-            className="rounded-lg mb-4 w-[480px] h-[175px]"
-            crossOrigin="anonymous"
-          />
-          <h2 className="text-xl font-semibold mb-2">Saylani MicroFinance App</h2>
-          <p className="text-gray-400 text-sm mb-4 text-center">
-          Introducing Saylani Microfinance. This platform empowers users to apply for loans, manage repayments, and access financial services with ease.
-          </p>
-          <div className="flex space-x-4">
-            <Link
-              href="https://github.com/AbdulRafay54/Microfinance-Frontend"
-              className="portfolio-button"
-              target="_blank"
-            >
-              <FaGithub className="mr-2" /> GitHub
-            </Link>
+        {/* Project Card 2
+<div className="portfolio-card flex flex-col items-center p-6 rounded-lg shadow-lg">
+  <Image
+    src="/images/bloomenvy.png" // apni image ka path update kar lena
+    alt="Bloom Envy"
+    width={400}
+    height={380}
+    className="rounded-lg mb-4 w-[480px] h-[175px]"
+    crossOrigin="anonymous"
+  />
+  <h2 className="text-xl font-semibold mb-2">Bloom Envy – Gifting Store</h2>
+  <p className="text-gray-400 text-sm mb-4 text-center">
+    Bloom Envy is a creative online store offering customized chocolate bouquets, gift baskets, and Eidi cards for special occasions like Eid, birthdays, and more.
+  </p>
+  <div className="flex space-x-4">
+    <Link
+      href="https://www.instagram.com/bloom_envy16"
+      className="portfolio-button"
+      target="_blank"
+    >
+      <FiExternalLink className="mr-2" /> Instagram
+    </Link>
 
-            <Link
-              href="https://microfinance-frontend-alpha.vercel.app/"
-              className="portfolio-button"
-              target="_blank"
-            >
-              <FiExternalLink className="mr-2" /> Demo
-            </Link>
-          </div>
-        </div>
+    <Link
+      href="https://wa.me/923303949866"
+      className="portfolio-button"
+      target="_blank"
+    >
+      <FaWhatsapp className="mr-2" /> WhatsApp
+    </Link>
+  </div>
+</div> */}
+
         <div className="portfolio-card flex flex-col items-center p-6 rounded-lg shadow-lg">
           <Image
             src="/images/laptop-blog.png"
